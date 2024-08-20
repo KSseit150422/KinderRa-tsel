@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C04187E52C750EE000866F08 /* KinderRa_tselApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04187E42C750EE000866F08 /* KinderRa_tselApp.swift */; };
+		C04187E72C750EE000866F08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04187E62C750EE000866F08 /* ContentView.swift */; };
+		C04187E92C750EE200866F08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04187E82C750EE200866F08 /* Assets.xcassets */; };
+		C04187EC2C750EE200866F08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C04187EB2C750EE200866F08 /* Preview Assets.xcassets */; };
+		C04187EE2C750EE200866F08 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04187ED2C750EE200866F08 /* Persistence.swift */; };
+		C04187F12C750EE200866F08 /* KinderRa_tsel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C04187EF2C750EE200866F08 /* KinderRa_tsel.xcdatamodeld */; };
+		C04187FB2C750EE200866F08 /* KinderRa_tselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04187FA2C750EE200866F08 /* KinderRa_tselTests.swift */; };
+		C04188052C750EE200866F08 /* KinderRa_tselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04188042C750EE200866F08 /* KinderRa_tselUITests.swift */; };
+		C04188072C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04188062C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C04187F72C750EE200866F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04187D92C750EE000866F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04187E02C750EE000866F08;
+			remoteInfo = "KinderRätsel";
+		};
+		C04188012C750EE200866F08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C04187D92C750EE000866F08 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C04187E02C750EE000866F08;
+			remoteInfo = "KinderRätsel";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C04187E12C750EE000866F08 /* KinderRätsel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KinderRätsel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04187E42C750EE000866F08 /* KinderRa_tselApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselApp.swift; sourceTree = "<group>"; };
+		C04187E62C750EE000866F08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C04187E82C750EE200866F08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C04187EB2C750EE200866F08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C04187ED2C750EE200866F08 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C04187F02C750EE200866F08 /* KinderRa_tsel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KinderRa_tsel.xcdatamodel; sourceTree = "<group>"; };
+		C04187F62C750EE200866F08 /* KinderRätselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KinderRätselTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04187FA2C750EE200866F08 /* KinderRa_tselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselTests.swift; sourceTree = "<group>"; };
+		C04188002C750EE200866F08 /* KinderRätselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KinderRätselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C04188042C750EE200866F08 /* KinderRa_tselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselUITests.swift; sourceTree = "<group>"; };
+		C04188062C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C04187DE2C750EE000866F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187F32C750EE200866F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187FD2C750EE200866F08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C04187D82C750EE000866F08 = {
+			isa = PBXGroup;
+			children = (
+				C04187E32C750EE000866F08 /* KinderRätsel */,
+				C04187F92C750EE200866F08 /* KinderRätselTests */,
+				C04188032C750EE200866F08 /* KinderRätselUITests */,
+				C04187E22C750EE000866F08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C04187E22C750EE000866F08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C04187E12C750EE000866F08 /* KinderRätsel.app */,
+				C04187F62C750EE200866F08 /* KinderRätselTests.xctest */,
+				C04188002C750EE200866F08 /* KinderRätselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C04187E32C750EE000866F08 /* KinderRätsel */ = {
+			isa = PBXGroup;
+			children = (
+				C04187E42C750EE000866F08 /* KinderRa_tselApp.swift */,
+				C04187E62C750EE000866F08 /* ContentView.swift */,
+				C04187E82C750EE200866F08 /* Assets.xcassets */,
+				C04187ED2C750EE200866F08 /* Persistence.swift */,
+				C04187EF2C750EE200866F08 /* KinderRa_tsel.xcdatamodeld */,
+				C04187EA2C750EE200866F08 /* Preview Content */,
+			);
+			path = "KinderRätsel";
+			sourceTree = "<group>";
+		};
+		C04187EA2C750EE200866F08 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C04187EB2C750EE200866F08 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C04187F92C750EE200866F08 /* KinderRätselTests */ = {
+			isa = PBXGroup;
+			children = (
+				C04187FA2C750EE200866F08 /* KinderRa_tselTests.swift */,
+			);
+			path = "KinderRätselTests";
+			sourceTree = "<group>";
+		};
+		C04188032C750EE200866F08 /* KinderRätselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C04188042C750EE200866F08 /* KinderRa_tselUITests.swift */,
+				C04188062C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift */,
+			);
+			path = "KinderRätselUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C04187E02C750EE000866F08 /* KinderRätsel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C041880A2C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätsel" */;
+			buildPhases = (
+				C04187DD2C750EE000866F08 /* Sources */,
+				C04187DE2C750EE000866F08 /* Frameworks */,
+				C04187DF2C750EE000866F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KinderRätsel";
+			productName = "KinderRätsel";
+			productReference = C04187E12C750EE000866F08 /* KinderRätsel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C04187F52C750EE200866F08 /* KinderRätselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C041880D2C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätselTests" */;
+			buildPhases = (
+				C04187F22C750EE200866F08 /* Sources */,
+				C04187F32C750EE200866F08 /* Frameworks */,
+				C04187F42C750EE200866F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04187F82C750EE200866F08 /* PBXTargetDependency */,
+			);
+			name = "KinderRätselTests";
+			productName = "KinderRätselTests";
+			productReference = C04187F62C750EE200866F08 /* KinderRätselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C04187FF2C750EE200866F08 /* KinderRätselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C04188102C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätselUITests" */;
+			buildPhases = (
+				C04187FC2C750EE200866F08 /* Sources */,
+				C04187FD2C750EE200866F08 /* Frameworks */,
+				C04187FE2C750EE200866F08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04188022C750EE200866F08 /* PBXTargetDependency */,
+			);
+			name = "KinderRätselUITests";
+			productName = "KinderRätselUITests";
+			productReference = C04188002C750EE200866F08 /* KinderRätselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C04187D92C750EE000866F08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C04187E02C750EE000866F08 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					C04187F52C750EE200866F08 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C04187E02C750EE000866F08;
+					};
+					C04187FF2C750EE200866F08 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = C04187E02C750EE000866F08;
+					};
+				};
+			};
+			buildConfigurationList = C04187DC2C750EE000866F08 /* Build configuration list for PBXProject "KinderRätsel" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C04187D82C750EE000866F08;
+			productRefGroup = C04187E22C750EE000866F08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C04187E02C750EE000866F08 /* KinderRätsel */,
+				C04187F52C750EE200866F08 /* KinderRätselTests */,
+				C04187FF2C750EE200866F08 /* KinderRätselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C04187DF2C750EE000866F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04187EC2C750EE200866F08 /* Preview Assets.xcassets in Resources */,
+				C04187E92C750EE200866F08 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187F42C750EE200866F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187FE2C750EE200866F08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C04187DD2C750EE000866F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04187EE2C750EE200866F08 /* Persistence.swift in Sources */,
+				C04187F12C750EE200866F08 /* KinderRa_tsel.xcdatamodeld in Sources */,
+				C04187E72C750EE000866F08 /* ContentView.swift in Sources */,
+				C04187E52C750EE000866F08 /* KinderRa_tselApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187F22C750EE200866F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04187FB2C750EE200866F08 /* KinderRa_tselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C04187FC2C750EE200866F08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C04188072C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift in Sources */,
+				C04188052C750EE200866F08 /* KinderRa_tselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C04187F82C750EE200866F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04187E02C750EE000866F08 /* KinderRätsel */;
+			targetProxy = C04187F72C750EE200866F08 /* PBXContainerItemProxy */;
+		};
+		C04188022C750EE200866F08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C04187E02C750EE000866F08 /* KinderRätsel */;
+			targetProxy = C04188012C750EE200866F08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C04188082C750EE200866F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C04188092C750EE200866F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C041880B2C750EE200866F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KinderRätsel/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tsel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C041880C2C750EE200866F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KinderRätsel/Preview Content\"";
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tsel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C041880E2C750EE200866F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinderRätsel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinderRätsel";
+			};
+			name = Debug;
+		};
+		C041880F2C750EE200866F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinderRätsel.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KinderRätsel";
+			};
+			name = Release;
+		};
+		C04188112C750EE200866F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KinderRätsel";
+			};
+			name = Debug;
+		};
+		C04188122C750EE200866F08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karlheinz.KinderRa-tselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "KinderRätsel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C04187DC2C750EE000866F08 /* Build configuration list for PBXProject "KinderRätsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04188082C750EE200866F08 /* Debug */,
+				C04188092C750EE200866F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C041880A2C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätsel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C041880B2C750EE200866F08 /* Debug */,
+				C041880C2C750EE200866F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C041880D2C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C041880E2C750EE200866F08 /* Debug */,
+				C041880F2C750EE200866F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C04188102C750EE200866F08 /* Build configuration list for PBXNativeTarget "KinderRätselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C04188112C750EE200866F08 /* Debug */,
+				C04188122C750EE200866F08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C04187EF2C750EE200866F08 /* KinderRa_tsel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C04187F02C750EE200866F08 /* KinderRa_tsel.xcdatamodel */,
+			);
+			currentVersion = C04187F02C750EE200866F08 /* KinderRa_tsel.xcdatamodel */;
+			path = KinderRa_tsel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C04187D92C750EE000866F08 /* Project object */;
+}
