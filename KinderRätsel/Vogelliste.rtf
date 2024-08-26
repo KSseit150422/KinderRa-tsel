@@ -1,0 +1,104 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2761
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red136\green0\blue126;\red255\green255\blue255;\red0\green0\blue0;
+\red26\green83\blue1;\red8\green67\blue144;\red155\green5\blue9;}
+{\*\expandedcolortbl;;\csgenericrgb\c53440\c0\c49575;\csgenericrgb\c100000\c100000\c100000;\csgenericrgb\c0\c0\c0;
+\csgenericrgb\c10317\c32365\c348;\csgenericrgb\c3038\c26353\c56285;\csgenericrgb\c60740\c1941\c3365;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww16740\viewh14320\viewkind0
+\deftab593
+\pard\tx593\pardeftab593\partightenfactor0
+
+\f0\b\fs24 \cf2 \cb3 import
+\f1\b0 \cf4  Foundation\
+\
+\cf5 // Liste aller verf\'fcgbaren Vogelbilder im Assets-Ordner "V\'f6gel"\cf4 \
+
+\f0\b \cf2 let
+\f1\b0 \cf4  \cf6 allBirdImages\cf4  = [\
+    \cf7 "V\'f6gel/Amsel"\cf4 ,\
+    \cf7 "V\'f6gel/Bachstelze"\cf4 ,\
+    \cf7 "V\'f6gel/Bergfink"\cf4 ,\
+    \cf7 "V\'f6gel/Bienenfresser"\cf4 ,\
+    \cf7 "V\'f6gel/Birkenzeisig"\cf4 ,\
+	\cf7 "V\'f6gel/Bl\'e4shuhn"\cf4 ,\
+\pard\tx593\pardeftab593\partightenfactor0
+\cf7 	"V\'f6gel/Blaukehlchen"\cf4 ,\
+\pard\tx593\pardeftab593\partightenfactor0
+\cf4 	\cf7 "V\'f6gel/Blaumeise"\cf4 ,\
+	\cf7 "V\'f6gel/Bluth\'e4nfling"\cf4 ,\
+	\cf7 "V\'f6gel/Braunkehlchen"\cf4 ,\
+	\cf7 "V\'f6gel/Buchfink"\cf4 ,\
+	\cf7 "V\'f6gel/Buntspecht"\cf4 ,\
+	\cf7 "V\'f6gel/Eichelh\'e4her"\cf4 ,\
+    \cf7 "V\'f6gel/Eisvogel"\cf4 ,\
+    \cf7 "V\'f6gel/Elster"\cf4 ,\
+    \cf7 "V\'f6gel/Erlenzeisig"\cf4 ,\
+    \cf7 "V\'f6gel/Feldlerche"\cf4 ,\
+    \cf7 "V\'f6gel/Feldsperling"\cf4 ,\
+    \cf7 "V\'f6gel/Gartenbauml\'e4ufer"\cf4 ,\
+    \cf7 "V\'f6gel/Gartenrotschwanz"\cf4 ,\
+    \cf7 "V\'f6gel/Gebirgsstelze"\cf4 ,\
+    \cf7 "V\'f6gel/Gimbel"\cf4 ,\
+    \cf7 "V\'f6gel/Girlitz"\cf4 ,\
+    \cf7 "V\'f6gel/Goldammer"\cf4 ,\
+    \cf7 "V\'f6gel/Graureiher"\cf4 ,\
+    \cf7 "V\'f6gel/Grauschn\'e4per"\cf4 ,\
+	\cf7 "V\'f6gel/Grauspecht"\cf4 ,\
+	\cf7 "V\'f6gel/Gr\'fcnfink"\cf4 ,\
+	\cf7 "V\'f6gel/Gr\'fcnspecht"\cf4 ,\
+	\cf7 "V\'f6gel/Habicht"\cf4 ,\
+	\cf7 "V\'f6gel/Haubenlerche"\cf4 ,\
+	\cf7 "V\'f6gel/haubenmeise"\cf4 ,\
+	\cf7 "V\'f6gel/Haubentaucher"\cf4 ,\
+	\cf7 "V\'f6gel/Hausrotschwanz"\cf4 ,\
+	\cf7 "V\'f6gel/Haussperling"\cf4 ,\
+	\cf7 "V\'f6gel/H\'f6ckerschwan"\cf4 ,\
+	\cf7 "V\'f6gel/Jagdfasan"\cf4 ,\
+	\cf7 "V\'f6gel/Kanadagans"\cf4 ,\
+	\cf7 "V\'f6gel/Kernbeiser"\cf4 ,\
+	\cf7 "V\'f6gel/Kibitz"\cf4 ,\
+	\cf7 "V\'f6gel/Kleiber"\cf4 ,\
+	\cf7 "V\'f6gel/Kleinspecht"\cf4 ,\
+	\cf7 "V\'f6gel/Kohlmeise"\cf4 ,\
+	\cf7 "V\'f6gel/Kolkrabe"\cf4 ,\
+	\cf7 "V\'f6gel/Kuckuck"\cf4 ,\
+	\cf7 "V\'f6gel/L\'f6ffelente"\cf4 ,\
+	\cf7 "V\'f6gel/Mauerseegler"\cf4 ,\
+	\cf7 "V\'f6gel/M\'e4usebussard"\cf4 ,\
+	\cf7 "V\'f6gel/Mehlschwalbe"\cf4 ,\
+	\cf7 "V\'f6gel/Neunt\'f6ter"\cf4 ,\
+\pard\tx593\pardeftab593\partightenfactor0
+\cf7 	"V\'f6gel/Nilgans"\cf4 ,\
+\cf7 	"V\'f6gel/Pirol"\cf4 ,\
+\cf7 	"V\'f6gel/Rabenkr\'e4he"\cf4 ,\
+\cf7 	"V\'f6gel/Rauchschwalbe"\cf4 ,\
+\cf7 	"V\'f6gel/Rotkehlchen"\cf4 ,\
+\cf7 	"V\'f6gel/Rotmilan"\cf4 ,\
+\cf7 	"V\'f6gel/Schwanzmeise"\cf4 ,\
+\cf7 	"V\'f6gel/Schwarzmilan"\cf4 ,\
+\cf7 	"V\'f6gel/Schwarzschwan"\cf4 ,\
+\cf7 	"V\'f6gel/Schwarzspecht"\cf4 ,\
+\cf7 	"V\'f6gel/Seidenreiher"\cf4 ,\
+	\cf7 "V\'f6gel/Silberreiher",\cf4 \
+	\cf7 "V\'f6gel/Singdrossel",\cf4 \
+\pard\tx593\pardeftab593\partightenfactor0
+\cf4 	\cf7 "V\'f6gel/Sperlingskauz"\cf4 ,\
+	\cf7 "V\'f6gel/Star"\cf4 ,\
+	\cf7 "V\'f6gel/Steinkauz"\cf4 ,\
+	\cf7 "V\'f6gel/Stiglitz"\cf4 ,\
+	\cf7 "V\'f6gel/Stockente"\cf4 ,\
+	\cf7 "V\'f6gel/Storch"\cf4 ,\
+	\cf7 "V\'f6gel/Sumpfmeise"\cf4 ,\
+	\cf7 "V\'f6gel/Tannenmeise"\cf4 ,\
+	\cf7 "V\'f6gel/T\'fcrkentaube"\cf4 ,\
+	\cf7 "V\'f6gel/Turmfalke"\cf4 ,\
+	\cf7 "V\'f6gel/Wachholderdrossel"\cf4 ,\
+	\cf7 "V\'f6gel/Waldbauml\'e4ufer"\cf4 ,\
+	\cf7 "V\'f6gel/Wasseramsel"\cf4 ,\
+	\cf7 "V\'f6gel/Wei\'dfstorch"\cf4 ,\
+	\cf7 "V\'f6gel/Wendehals"\cf4 ,\
+	\cf7 "V\'f6gel/Zaunk\'f6nig"\cf4 ,\
+\
+\
+    \cf5 // F\'fcge hier weitere Vogelbilder hinzu, die in deinem Assets-Ordner gespeichert sind\cf4 \
+]}

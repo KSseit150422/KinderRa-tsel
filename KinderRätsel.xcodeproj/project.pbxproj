@@ -16,6 +16,9 @@
 		C04187FB2C750EE200866F08 /* KinderRa_tselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04187FA2C750EE200866F08 /* KinderRa_tselTests.swift */; };
 		C04188052C750EE200866F08 /* KinderRa_tselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04188042C750EE200866F08 /* KinderRa_tselUITests.swift */; };
 		C04188072C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04188062C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift */; };
+		C082C7A02C772ECC00FB6130 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082C79F2C772ECC00FB6130 /* QuizView.swift */; };
+		C082C7A22C7BC5EB00FB6130 /* Vogellist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082C7A12C7BC5EB00FB6130 /* Vogellist.swift */; };
+		C082C7A42C7BD10700FB6130 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = C082C7A32C7BD10700FB6130 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		C04188002C750EE200866F08 /* KinderRätselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KinderRätselUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04188042C750EE200866F08 /* KinderRa_tselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselUITests.swift; sourceTree = "<group>"; };
 		C04188062C750EE200866F08 /* KinderRa_tselUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinderRa_tselUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C082C79F2C772ECC00FB6130 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		C082C7A12C7BC5EB00FB6130 /* Vogellist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vogellist.swift; sourceTree = "<group>"; };
+		C082C7A32C7BD10700FB6130 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,9 @@
 			children = (
 				C04187E42C750EE000866F08 /* KinderRa_tselApp.swift */,
 				C04187E62C750EE000866F08 /* ContentView.swift */,
+				C082C79F2C772ECC00FB6130 /* QuizView.swift */,
+				C082C7A32C7BD10700FB6130 /* Question.swift */,
+				C082C7A12C7BC5EB00FB6130 /* Vogellist.swift */,
 				C04187E82C750EE200866F08 /* Assets.xcassets */,
 				C04187ED2C750EE200866F08 /* Persistence.swift */,
 				C04187EF2C750EE200866F08 /* KinderRa_tsel.xcdatamodeld */,
@@ -265,7 +274,10 @@
 			files = (
 				C04187EE2C750EE200866F08 /* Persistence.swift in Sources */,
 				C04187F12C750EE200866F08 /* KinderRa_tsel.xcdatamodeld in Sources */,
+				C082C7A02C772ECC00FB6130 /* QuizView.swift in Sources */,
+				C082C7A22C7BC5EB00FB6130 /* Vogellist.swift in Sources */,
 				C04187E72C750EE000866F08 /* ContentView.swift in Sources */,
+				C082C7A42C7BD10700FB6130 /* Question.swift in Sources */,
 				C04187E52C750EE000866F08 /* KinderRa_tselApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +445,7 @@
 				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +475,7 @@
 				DEVELOPMENT_TEAM = 5AQPUY7Y4X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.puzzle-games";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
